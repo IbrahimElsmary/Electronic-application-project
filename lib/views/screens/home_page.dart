@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application1/core/settings_utll.dart';
-import 'package:flutter_application1/views/screens/add_category_page.dart';
+import 'package:flutter_application1/views/screens/categories_screen.dart';
+
 import 'package:flutter_application1/views/screens/nav_bar_pages/categories_screen.dart';
 import 'package:flutter_application1/views/screens/nav_bar_pages/main_screen.dart';
 import 'package:flutter_application1/views/screens/nav_bar_pages/settings_screen.dart';

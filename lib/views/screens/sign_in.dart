@@ -25,12 +25,11 @@ class _SignInPageState extends State<SignInPage> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              const SizedBox(height: 50),
+              const SizedBox(height: 60),
               SizedBox(
                 width: 150,
                 height: 150,
-               
-                 child: Image.asset("assets/6681204.png"),
+                child: Image.asset("assets/6681204.png"),
               ),
               Padding(
                 padding: const EdgeInsets.all(10),
@@ -57,6 +56,7 @@ class _SignInPageState extends State<SignInPage> {
                   },
                 ),
               ),
+
               Padding(
                 padding: const EdgeInsets.all(10),
                 child: TextFormField(
@@ -110,11 +110,11 @@ class _SignInPageState extends State<SignInPage> {
                     ),
 
               const SizedBox(
-                height: 15,
+                height: 30,
               ),
               const Text("Forgot Password?. Tap me"),
               const SizedBox(
-                height: 15,
+                height: 50,
               ),
               AppButton(
                 label: "No account, sign up",
